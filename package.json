@@ -1,13 +1,16 @@
 {
   "name": "@kellymuterian/project-alpha",
   "version": "1.0.0",
-  "description": "First project using shared utils",
+  "description": "first project using shared utils",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@kellymuterian/utils-shared": "npm:@Kellymuterian/utils-shared@^1.0.0"
+    "@kellymuterian/utils-shared": "^1.0.1"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
